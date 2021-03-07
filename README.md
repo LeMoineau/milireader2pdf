@@ -2,6 +2,7 @@
 
 ## Comment l'utiliser
 - Enregistre la page dans laquelle se trouve le lecteur milibris-reader (avec Ctrl + S par exemple)
+![image](https://user-images.githubusercontent.com/56643922/110251789-70cea900-7f82-11eb-9777-8cea8de126df.png)
 - Par défault, tu dois renommer ce fichier en **pierrot.html**
 - *(pour changer le nom d'enregistrement, tu peux changer dans le fichier **param.txt** le champ `filename`)*
 ``{ "filename": "pierrot", ...} en {"filename": "remy", ...} par exemple ``
@@ -11,4 +12,4 @@
 
 ## Specifics package to install
 - img2pdf
-![image](https://user-images.githubusercontent.com/56643922/110251744-349b4880-7f82-11eb-8e1a-ce7d5645447a.png)
+
