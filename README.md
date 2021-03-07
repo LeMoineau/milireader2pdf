@@ -36,4 +36,6 @@
 
 ![image](https://user-images.githubusercontent.com/56643922/110251974-7ed0f980-7f83-11eb-972f-3b13c0a2022d.png)
 
+## Remerciement
+Mangeons tous de grandes galettes (les bretonnes pas les galettes des rois) parce que ça fait grave plaisir en vrai
 
