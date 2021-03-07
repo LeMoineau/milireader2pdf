@@ -2,9 +2,9 @@
 
 ## Installation
 - Windows
-  - télécharge le setup.msi
+  - télécharge le setup.exe
   - lance-le
-  - fait attention où tu situes le dossier d'installation, il faut le perdre
+  - fait attention où tu situes le dossier d'installation, il ne faut pas le perdre
 - Autres
   - télécharge l'ensemble du projet (main.py et le dossier milireader2pdf)
   - suit les mêmes étapes que ci-dessous en remplaçant dans les explications **main.exe** en **main.py**
