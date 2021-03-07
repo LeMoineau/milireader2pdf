@@ -1,7 +1,7 @@
 # milireader2pdf
 
 ## How to use
-- save the html page from the milibris-reader website as **pierrot.html**
+- save the html page from the milibris-reader website as **pierrot.html** (with ctrl+S for example)
 - put the **pierrot.html** file just above the **main.py**
 - run the **main.py** file
 
