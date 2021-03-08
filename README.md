@@ -8,7 +8,7 @@
 - Autres
   - télécharge l'ensemble du projet (main.py et le dossier milireader2pdf)
   - suit les mêmes étapes que ci-dessous en remplaçant dans les explications **main.exe** en **main.py**
-  - *(il faut donc lancer **main.py** pour créer le pdf après avoir faut les étapes précédentes)*
+  - *(il faut donc lancer **main.py** pour créer le pdf après avoir fait les étapes précédentes)*
 
 ## Comment l'utiliser
 - Enregistre la page dans laquelle se trouve le lecteur milibris-reader (avec Ctrl + S par exemple)
