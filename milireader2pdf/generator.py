@@ -4,6 +4,13 @@ from milireader2pdf.directory import filemanager
 from milireader2pdf.directory import preferences
 
 def generate(filename):
+
+    """Fonctionnement global de la génération du fichier pdf à partir du fichier html
+
+    parameters:
+        filename: chemin complet avec extension du fichier html
+    """
+
     (namefile, start_step) = preferences.get_preferences()
     directory_name = filemanager.get_filename_without_ext(filemanager.get_only_basename(filename))
 

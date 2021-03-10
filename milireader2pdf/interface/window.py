@@ -9,16 +9,32 @@ import os
 class Window(tk.Frame):
 
     def __init__(self, frame=tk.Tk()):
+
+        """Constructeur de la fenetre
+
+        parameters:
+            frame: nouvelle fenetre tkinter
+        """
+
         super().__init__(frame)
         self.frame = frame
         self.init_frame()
 
     def init_frame(self):
+
+        """
+        Personnalisation rapide de la fenetre
+        """
+
         self.frame.title("Milibris-reader to PDF")
         self.pack()
         self.pack_elements()
 
     def pack_elements(self):
+
+        """
+        Ajout des éléments principaux
+        """
 
         self.info = tk.Label(self)
         self.infovar = StringVar()
@@ -38,6 +54,12 @@ class Window(tk.Frame):
         self.test.pack(side="right", padx=20, pady=20)
 
     def choose_file(self):
+
+        """
+        Fonction de selection d'un fichier
+        Stocke dans self.selected_file le chemin complet vers le fichier selectionné
+        """
+
         self.selected_file = filedialog.askopenfilename(initialdir = filemanager.get_root_directory(),
             title = "Select file",
             filetypes = (("html files","*.html"),("all files","*.*")))
@@ -55,5 +77,10 @@ class Window(tk.Frame):
             self.info.pack()
 
     def generate_pdf(self):
-        if (self.selected_file != "Choisir un fichier"):
+
+        """
+        Fonction intermédiaire pour appeler la fonction principale de génération
+        """
+
+        if (self.selected_file and self.selected_file != "Choisir un fichier"):
             generator.generate(self.selected_file)
