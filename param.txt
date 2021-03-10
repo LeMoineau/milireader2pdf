@@ -1,4 +1,4 @@
 {
   "filename": "pierrot",
-  "start_step": 0
+  "start_step": 1
 }
